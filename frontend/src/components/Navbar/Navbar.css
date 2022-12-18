@@ -1,10 +1,9 @@
 
 .navbar {
   /* position: fixed; */
- position: absolute;
-  width:100vw;
+
   display: grid;
-   /* border: 2px solid black; */
+   /* border: 2px solid bcdlack; */
   /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(40,51,242,0) 0%, rgba(49,66,213,1) 37%); */
   grid-template-columns: 20% 40% 40%;
   height: 70px;
