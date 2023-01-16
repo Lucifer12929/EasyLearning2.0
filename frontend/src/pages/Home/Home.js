@@ -228,7 +228,7 @@ const Home = () => {
         <h2>For Begineer :</h2>
         <h3>We Recommend this for you to start.</h3>
 
-        <Tabs defaultActiveKey="1" onTabClick={changetopic}>
+        <Tabs defaultActiveKey="1" onTabClick={changetopic} >
           <TabPane tab="Devlopement" key="1">
             <div className="Tab_Content">
               <h2>Become a Devloper</h2>
@@ -502,6 +502,7 @@ const Home = () => {
         </Tabs>
       </section>
       <section className="Courses_Popular" ref={pobularref}>
+        <div className="popular_content">
         <h2>Popular Courses </h2>
         <div className="coursecards">
           {loadingpobular ? (
@@ -523,6 +524,7 @@ const Home = () => {
               ))}
             </Slider>
           )}
+        </div>
         </div>
       </section>
       <section className="Categorys_Popular">
@@ -571,9 +573,10 @@ const Home = () => {
           <div className="paragraph">
             <h2>Become a Teacher with us</h2>
             <p>Do you have the skills and you want to share it with profit?</p>
+            <Link to="/register">
             <button className="Btn" id="Joinusbtn">
               Join Us
-            </button>
+            </button></Link>
           </div>
         </div>
       </section>

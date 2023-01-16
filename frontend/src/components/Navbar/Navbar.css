@@ -12,7 +12,7 @@
   align-items: center;
   padding: 0 10px;
   box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.6);
-  
+  width: 100%;
   /* position: absolute;
   width: 100%;
   top: 64px;
@@ -204,7 +204,7 @@ nav ul li img {
 }
 .dropdownic {
   display: grid;
-  grid-template-columns: 20% 50% 30%;
+  grid-template-columns: 20% 30% 50%;
   justify-content: center;
   align-items: center;
   cursor: pointer;

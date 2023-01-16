@@ -583,7 +583,7 @@ const Profile = ({ history }) => {
                       add
                     </Button>
                   </div>
-                  <Table dataSource={courses}>
+                  <Table dataSource={courses} className="tableteacher">
                     <Column title="Name" dataIndex="name" key="_id" />
                     <Column title="Price" dataIndex="price" key="price" />
                     <Column title="Category" dataIndex="category" />

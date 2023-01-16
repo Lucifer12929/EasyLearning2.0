@@ -5,7 +5,7 @@
   grid-template-columns: 40% 60%;
 }
 .ant-table {
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 .profile-page .col-left {
   max-width: 400px;
@@ -117,6 +117,7 @@
   margin: 10px 0;
   text-align: center;
 }
+
 .btn-edit {
   display: block;
   width: 100%;

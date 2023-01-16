@@ -11,6 +11,7 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 .Btn {
   cursor: pointer;
@@ -29,6 +30,7 @@
 .main {
     scroll-behavior: smooth;
     /* min-height: 100vh; */
+   
 }
 
 .lined {
