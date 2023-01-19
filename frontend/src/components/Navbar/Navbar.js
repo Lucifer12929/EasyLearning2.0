@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import { withRouter } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { Input, Popover, Drawer, Badge, Button, Dropdown } from "antd";
 import {
   CgShoppingCart,
@@ -28,11 +28,11 @@ const Navbar = ({ match, history }) => {
   const cartReducer = useSelector((state) => state.cartReducer);
   const { cartItems } = cartReducer;
 
-
+const navigate=useHistory();
 
   const handleSearch = () => {
     if (keyword) {
-      history.push(`/search/${keyword}`);
+      navigate.push(`/search/${keyword}`);
     }
   };
   const handleLogout = async () => {
@@ -214,6 +214,13 @@ const Navbar = ({ match, history }) => {
         </div>
         {!showicons && (
           <div className="Onright">
+            <Link to="/student">
+              <Button
+               className="Navbarbtns" id="Categoriesbtn"
+              >
+                Student
+              </Button>
+            </Link>
             <Link to="/register">
               <Button
                 disabled={isLogged}
@@ -296,4 +303,4 @@ const Navbar = ({ match, history }) => {
   );
 };
 
-export default withRouter(Navbar);
+export default Navbar;

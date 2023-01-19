@@ -485,7 +485,7 @@ const CheckoutScreen = ({ history }) => {
                 <p>{item.name}</p>
               </div>
               <div className="orderPrice">
-                <h2>${item.price}</h2>
+                <h2>₹{item.price}</h2>
               </div>
             </div>
           ))}
@@ -497,18 +497,18 @@ const CheckoutScreen = ({ history }) => {
         <div className="priceOfP">
           <b>Original price:</b>
           <h3>
-            ${cartItems.reduce((acc, item) => acc + item.price, 0).toFixed(2)}
+          ₹{cartItems.reduce((acc, item) => acc + item.price, 0).toFixed(2)}
           </h3>
         </div>
         <div className="priceOfP">
           <b>Coupon discounts:</b>
-          <h3>$189,33</h3>
+          <h3>₹189</h3>
         </div>
         <hr></hr>
         <div className="priceOfTotal">
           <b>Total:</b>
           <h3>
-            ${cartItems.reduce((acc, item) => acc + item.price, 0).toFixed(2)}
+          ₹{cartItems.reduce((acc, item) => acc + item.price, 0).toFixed(2)}
           </h3>
         </div>
         <br></br>

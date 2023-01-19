@@ -35,6 +35,11 @@ import PlaceOrder from "./pages/Placeorderscreen/PlaceOrder";
 import EditCourse from "./components/body/profile/EditCourse";
 import OrderScreen from "./pages/Orderscreen/OrderScreen";
 import CourseSeacrh from "./pages/CourseSearch/CourseSeacrh";
+import Student from "./pages/Student/Student";
+import AskQuestion from "./pages/AskQuestion/AskQuestion";
+import Questions from './pages/Questions/Questions';
+import DisplayQuestion from './pages/Questions/DisplayQuestion';
+
 function App() {
   //Get Acces token
   const dispatch = useDispatch();
@@ -104,6 +109,25 @@ function App() {
                 path="/register"
                 component={isLogged ? NotFound : Register}
               />
+
+              <Route
+                exact
+                path="/student"
+                component={Student}
+              />
+
+              <Route exact 
+              path='/AskQuestion' 
+              component={AskQuestion}/>
+
+              <Route exact 
+              path='/Questions' 
+              component={Questions}/>
+
+              <Route exact 
+              path='/Questions/:id' 
+              component={DisplayQuestion}/>
+              
               <Route
                 exact
                 path="/user/activate/:activation_token"

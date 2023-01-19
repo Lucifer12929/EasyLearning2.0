@@ -123,16 +123,16 @@ const PlaceOrder = ({ history }) => {
           <h1>Summary</h1>
           <div className="priceOfP">
             <b>Original price:</b>
-            <h3>${cartReducer.totalPrice}</h3>
+            <h3>₹{cartReducer.totalPrice}</h3>
           </div>
           <div className="priceOfP">
             <b>Coupon discounts:</b>
-            <h3>$189,33</h3>
+            <h3>₹189</h3>
           </div>
           <hr></hr>
           <div className="priceOfTotal">
             <b>Total:</b>
-            <h3>${cartReducer.totalPrice}</h3>
+            <h3>₹{cartReducer.totalPrice}</h3>
           </div>
           <br></br>
 

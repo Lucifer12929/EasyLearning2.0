@@ -24,8 +24,8 @@ const Coursesblock = ({course}) => {
                               </div>
 
                               <div className="coursesPrice">
-                                    <b className="nouveauPrice">${course.price}</b>                            
-                                    <b className="ancienPrice">$94.99</b>
+                                    <b className="nouveauPrice">₹{course.price}</b>                            
+                                    <b className="ancienPrice">₹{course.price + 50}</b>
                               </div>
                           </div></Link>
        

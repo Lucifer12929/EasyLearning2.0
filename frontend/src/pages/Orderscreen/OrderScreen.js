@@ -138,14 +138,14 @@ const OrderScreen = ({ history, match }) => {
                     <p>{item.name}</p>
                   </div>
                   <div className="orderPrice">
-                    <h2>${item.price}</h2>
+                    <h2>₹{item.price}</h2>
                   </div>
                 </div>
               ))}
               <hr></hr>
               <div className="totalPriceOrder">
                 <h2>Total = </h2>
-                <b className="totalPriceNumberOrder">${order.totalPrice}</b>
+                <b className="totalPriceNumberOrder">₹{order.totalPrice}</b>
               </div>
             </div>
           </div>

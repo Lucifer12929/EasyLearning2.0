@@ -27,9 +27,9 @@ const Productcart = ({course}) => {
                 </div>
                 <div className="priceOfCourse">
                     <h1 className = 'totalpriceCart'>
-                    {course.price}$
+                    ₹{course.price}
                     </h1>
-                    <b className="priceOfCourseb">300,00 $US</b>
+                    <b className="priceOfCourseb">300,00 ₹INR</b>
                 </div>
                 <div>
                     <VscChromeClose className = 'deletecart' size = '26' onClick={() => removeFromCartHandler(course.course)} />

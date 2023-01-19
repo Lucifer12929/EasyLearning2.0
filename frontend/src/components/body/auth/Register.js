@@ -25,6 +25,7 @@ const initialState = {
   email: "",
   password: "",
   cf_password: "",
+  Teacher:false,
   description: "",
   headline: "",
   err: "",
@@ -189,7 +190,7 @@ const Register = () => {
                     onChange={handleChange} />
             </div>
             <input type="submit" value="Register" class="btn solid" />
-            <Checkbox onChange={(e) => setisTeacher(e.target.checked)}>
+            <Checkbox onChange={(e) => setisTeacher(!isTeacher)}>
                 Sign me up as a teacher
               </Checkbox>
               {isTeacher && (

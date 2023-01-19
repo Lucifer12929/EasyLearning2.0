@@ -29,6 +29,7 @@ import {
   OrderPayreducer,
 } from "./orderReducers";
 import usersInfo from "./usersInfoReducer";
+import questionsReducer from "./student";
 export default combineReducers({
   auth,
   token,
@@ -41,6 +42,7 @@ export default combineReducers({
   GetCoursesbysubcg,
   cartReducer,
   usersInfo,
+  questionsReducer,
   ListNewCoursesReducer,
   courseUpdateReducer,
   courseCreateReducer,

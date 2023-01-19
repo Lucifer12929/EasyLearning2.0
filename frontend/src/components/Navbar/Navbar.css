@@ -5,7 +5,7 @@
   display: grid;
    /* border: 2px solid bcdlack; */
   /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(40,51,242,0) 0%, rgba(49,66,213,1) 37%); */
-  grid-template-columns: 20% 40% 40%;
+  grid-template-columns: 20% 32% 48%;
   height: 70px;
   align-content: center;
   justify-content: center;
@@ -98,11 +98,11 @@
 }
 .Onright {
   height: 100%;
-  margin-left: 20px;
+  
   display: grid;
   align-content: center;
   align-items: center;
-  grid-template-columns: 30% 20% 10% 40%;
+  grid-template-columns: 15% 20% 25% 10% 30%;
 }
 .carticon {
   color: #2f2f2f;

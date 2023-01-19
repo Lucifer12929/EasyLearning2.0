@@ -134,10 +134,10 @@ const Coursepage = ({ match, history }) => {
                       >
                         Add to Cart
                       </button>
-                      <button className="buttonsCourse">
-                        <Link className="Link" to="/">
+                      <button className="buttonsCourse"  onClick={addToCartHandler}>
+                        
                           Shop Now
-                        </Link>
+                      
                       </button>
                       <button className="buttonsCourse Video">
                         <Link className="Link" to="/">
@@ -231,10 +231,10 @@ const Coursepage = ({ match, history }) => {
                       <div className="price">
                         <p className="new-price">
                           {" "}
-                          <span>${course.price}</span>
+                          <span>₹{course.price}</span>
                         </p>
                         <h4 className="last-price">
-                          Old Price: <span>$94,99</span>
+                          Old Price: <span>{course.price + 50}</span>
                         </h4>
                       </div>
 

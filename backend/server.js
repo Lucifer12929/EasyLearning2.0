@@ -11,11 +11,15 @@ app.use(cors());
 app.use(cookieParser());
 app.use(fileUpoad({ useTempFiles: true }));
 
+
+
 //Routes
 app.use("/user", require("./routes/userRouter"));
 app.use("/api", require("./routes/upload"));
 app.use("/courses", require("./routes/courseRouter"));
 app.use("/orders", require("./routes/orderRoutes"));
+app.use('/student', require("./routes/Questions"));
+app.use('/answer', require("./routes/Answers"));
 app.get("/api/config/paypal", (req, res) =>
   res.send(process.env.PAYPAL_CLIENT_ID)
 );

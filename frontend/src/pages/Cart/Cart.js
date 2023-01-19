@@ -46,10 +46,10 @@ const Cart = ({ match, history }) => {
           <div className="totalcart">
             <h3 className="totalName">Subtotal ({cartItems.length} items)</h3>
             <b className="totalprice">
-              {cartItems.reduce((acc, item) => acc + item.price, 0).toFixed(2)}$
+            ₹{cartItems.reduce((acc, item) => acc + item.price, 0).toFixed(2)}
             </b>
             <br></br>
-            <b className="pricebefore">600,00 $US</b>
+            <b className="pricebefore">600 ₹INR</b>
 
             <button className="validationBtn" onClick={checkoutHandler}>
               VALIDATION

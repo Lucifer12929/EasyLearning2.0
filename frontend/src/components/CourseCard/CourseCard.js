@@ -17,7 +17,7 @@ const CourseCard = ({ course }) => {
                     
                 </h3>
                 <div className='name_p'>
-                <h4>${course.price}</h4>
+                <h4>₹{course.price}</h4>
               
                 <Rate disabled  width = '2' allowHalf value={course.rating} />
                 

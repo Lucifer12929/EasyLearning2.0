@@ -1,0 +1,74 @@
+.ask-question{
+    min-height: 100vh;
+    background: url(https://i.ibb.co/M9LB3Kq/Glassmorphism-Background.png);
+}
+
+.ask-ques-container{
+    margin: auto;
+    max-width: 1200px;
+   
+
+}
+.ask-form-container{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+}
+.upperpart{
+    display: flex;
+    gap:7rem;
+}
+.ask-ques-container h1{
+    padding: 30px 0px 20px 0px;
+}
+
+.ask-ques-container form .ask-form-container{
+    margin-top: 2rem;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #fff;
+    transition: all 0.2s ease-in-out;
+    border-radius: 2rem;
+}
+
+.ask-form-container label h4{
+    margin-bottom: 0%;
+
+}
+
+.ask-form-container label p{
+    margin: 0%;
+    font-size: 13px;
+    padding: 3px 0px;
+
+}
+
+.ask-form-container label input, 
+.ask-form-container label textarea{
+    padding: 10px;
+    border: solid 1px #0000003e;
+    font-family: 'Roboto', sans-serif;
+    width: calc(100% - 20px);
+    resize: vertical;
+
+}
+
+.review-btn{
+    margin: 50px 0px;
+    padding: 10px;
+    background-color: #009dff;
+    border: solid 1px #009dff;
+    color: white;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.review-btn:hover{
+    background-color: #0086d8;
+    
+}
+
+#ask-ques-body{
+    min-height: 150px;
+}
