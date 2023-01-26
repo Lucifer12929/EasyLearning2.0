@@ -149,7 +149,7 @@ const Register = () => {
       <div class="forms-container">
         <div class="signin-signup">
           <form action="#" class="sign-in-form" onSubmit={handleSubmit}>
-            <h2 class="title">Sign in</h2>
+            <h2 class="title">Register</h2>
             {err && showErrMsg(err)}
             {success && showSuccessMsg(success)}
             <div class="input-field">

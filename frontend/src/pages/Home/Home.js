@@ -160,38 +160,7 @@ const Home = () => {
       <Helmet>
         <title>Easy Learning</title>
       </Helmet>
-      {/* <div>
-        <div className="Banner_Card"> */}
-          {/* <div className="Card">
-            <h1>Start your learning journey
-               with Easy Learn</h1>
-            <hr />
-            <p>
-             Live as if you were to die tomorrow.Learn as if you were to live forever.
-            </p>
-            <button className="Btn" id="discover_btn" onClick={executeScroll}>
-              Let's Go
-            </button>
-          </div>
-        </div>
-        <div>
-      {/* <Suspense fallback={<div>Loading...</div>}>
-        <Spline scene="https://prod.spline.design/6Wq1Q7YGyM-iab9i/scene.splinecode" />
-      </Suspense> */}
-      {/* <Common
-             name="Improve your skills with"
-             imgsrc={headerImg}
-             visit="/courses"
-             btname="Get Started"
-        /> */}
-    {/* </div>
-   
-        <img
-          className="Home_image"
-          alt=""
-          src={Room}
-        />
-      </div> */}
+      
       <div className="whole">
       <section id="header" className="d-flex align-items-center">
 			<div className="container-fluid">
@@ -210,9 +179,7 @@ const Home = () => {
               Let's Go
               </Link>
             </button>
-									{/* <Link to={props.visit} className="btn-get-started">
-										{props.btname}
-									</Link> */}
+									
 								</div>
 							</div>
 
