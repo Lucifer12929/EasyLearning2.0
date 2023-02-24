@@ -1,8 +1,8 @@
 # Easy-Learning
 ## MAIN GOAL
-#### Welcome to our e-learning website, a platform designed to empower users across the world to learn and develop new skills online. Our website offers a wide range of courses and learning opportunities, with filter functionality based on category, ensuring that users can find courses that match their interests and goals.
+Welcome to our e-learning website, a platform designed to empower users across the world to learn and develop new skills online. Our website offers a wide range of courses and learning opportunities, with filter functionality based on category, ensuring that users can find courses that match their interests and goals.
 
-#### The website is designed with a user-friendly interface, making it easy to navigate and access learning materials. It also includes separate dashboards for administrators, teachers, and students, providing each user group with specific tools and functionalities to enhance their learning experience.
+The website is designed with a user-friendly interface, making it easy to navigate and access learning materials. It also includes separate dashboards for administrators, teachers, and students, providing each user group with specific tools and functionalities to enhance their learning experience.
 
 ## Usage 
 To run this project you can simply type in the terminal : 
