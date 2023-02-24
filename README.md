@@ -27,23 +27,6 @@ And it will run a script named dev which runs both server(nodemon) and client(re
 - [x] **[react-moment](https://github.com/headzoo/react-moment)**
 - [x] **[react-redux](https://github.com/reduxjs/react-redux)**
 - [x] **[redux-thunk](https://github.com/reduxjs/redux-thunk)**
-- [x] **[validator](https://github.com/chriso/validator.js)**
-- [x] **[canvasjs]()**
-- [x] **[file-loader]()**
-- [x] **[fs-extra]()**
-- [x] **[canvasjs]()**
-- [x] **[node-sass]()**
-- [x] **[postcss-loader]()**
-- [x] **[react-countup]()**
-- [x] **[react-modal-video]()**
-- [x] **[react-toastify]()**
-- [x] **[react-visibility-sensor]()**
-- [x] **[reactjs-popup]()**
-- [x] **[reactstrap]()**
-- [x] **[sass-loader]()**
-- [x] **[semver]()**
-- [x] **[swiper]()**
-- [x] **[url-loader]()**
 - [x] **[animate.css]()**
 
 
@@ -59,7 +42,6 @@ And it will run a script named dev which runs both server(nodemon) and client(re
 
 - [x] **[express-fileupload](https://github.com/dcodeIO/bcrypt.js)**
 - [x] **[bcryptjs](https://github.com/dcodeIO/bcrypt.js)**
-- [x] **[gravatar](https://github.com/emerleite/node-gravatar)**
 - [x] **[mongoose](http://mongoosejs.com/)**
 - [x] **[jwt-decode](https://github.com/auth0/jwt-decode)**
 - [x] **[moment](https://momentjs.com/)**
