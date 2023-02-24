@@ -11,7 +11,7 @@ npm run dev
 ```
 And it will run a script named dev which runs both server(nodemon) and client(react start script) apps.
 
-## Home Page
+## Images
 
 ![BeFunky-collage](https://user-images.githubusercontent.com/88181451/221225467-f58f2328-ba0e-49bf-80d5-12019ea0a548.png)
 
