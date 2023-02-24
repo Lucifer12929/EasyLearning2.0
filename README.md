@@ -11,13 +11,19 @@ npm run dev
 ```
 And it will run a script named dev which runs both server(nodemon) and client(react start script) apps.
 
-## Images
+## Home and Login Page
 
 ![BeFunky-collage](https://user-images.githubusercontent.com/88181451/221225467-f58f2328-ba0e-49bf-80d5-12019ea0a548.png)
 
+## Categorie,Course,Cart and Order Page
+
 ![BeFunky-new](https://user-images.githubusercontent.com/88181451/221227579-911c8d5f-2841-4abd-961a-7710c998efbc.png)
 
+## Student Page
+
 ![BeFunky-new2 (1)](https://user-images.githubusercontent.com/88181451/221229270-acd47d62-df3d-4f96-8f3a-a9f5ef7af1bb.png)
+
+## Dashboard
 
 ![image](https://user-images.githubusercontent.com/88181451/221213838-15f3523b-36d4-472f-8478-e6572f28f567.png)
 
