@@ -11,6 +11,10 @@ npm run dev
 ```
 And it will run a script named dev which runs both server(nodemon) and client(react start script) apps.
 
+## Instructor's Portal
+
+![image](https://user-images.githubusercontent.com/88181451/221212020-b8895bc1-5f22-48e5-8bf6-eedbb46f7da0.png)
+
 ## Main Technologies
 
 ### Client Side
