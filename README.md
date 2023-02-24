@@ -11,9 +11,30 @@ npm run dev
 ```
 And it will run a script named dev which runs both server(nodemon) and client(react start script) apps.
 
-## Instructor's Portal
+## Home Page
 
 ![image](https://user-images.githubusercontent.com/88181451/221212020-b8895bc1-5f22-48e5-8bf6-eedbb46f7da0.png)
+
+![image](https://user-images.githubusercontent.com/88181451/221212873-dae6935a-d736-4f12-8e2f-d71959e6a113.png)
+
+![image](https://user-images.githubusercontent.com/88181451/221213015-75669f37-8d50-4929-a574-2ecebb49a0fb.png)
+
+![image](https://user-images.githubusercontent.com/88181451/221213212-3ddeb54a-3d61-486c-8e15-19ed29a465cd.png)
+
+![image](https://user-images.githubusercontent.com/88181451/221213443-0f382f56-b4b1-45ff-ac7e-a816ef9728c3.png)
+
+![image](https://user-images.githubusercontent.com/88181451/221213578-49277f3b-3d34-4dc6-a64f-67054a657fb0.png)
+
+![image](https://user-images.githubusercontent.com/88181451/221213684-9e514b95-782c-4db7-a923-ae7abfad8719.png)
+
+![image](https://user-images.githubusercontent.com/88181451/221213838-15f3523b-36d4-472f-8478-e6572f28f567.png)
+
+![image](https://user-images.githubusercontent.com/88181451/221214010-ee6d09ae-5433-4414-83d5-c62debf969f1.png)
+
+![image](https://user-images.githubusercontent.com/88181451/221214093-8a0140b3-69e5-4529-9447-46cb4d15ca78.png)
+
+![image](https://user-images.githubusercontent.com/88181451/221214129-c6cf5cf2-b6a8-4df3-a202-b5a57d05f94e.png)
+
 
 ## Main Technologies
 
