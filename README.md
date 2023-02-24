@@ -17,13 +17,7 @@ And it will run a script named dev which runs both server(nodemon) and client(re
 
 ![BeFunky-new](https://user-images.githubusercontent.com/88181451/221227579-911c8d5f-2841-4abd-961a-7710c998efbc.png)
 
-![BeFunky-new2](https://user-images.githubusercontent.com/88181451/221229041-b25ff0a3-e524-4f5d-8d9c-2703f1d15dc1.png)
-
-![image](https://user-images.githubusercontent.com/88181451/221213212-3ddeb54a-3d61-486c-8e15-19ed29a465cd.png)
-
-![image](https://user-images.githubusercontent.com/88181451/221213443-0f382f56-b4b1-45ff-ac7e-a816ef9728c3.png)
-
-![image](https://user-images.githubusercontent.com/88181451/221213578-49277f3b-3d34-4dc6-a64f-67054a657fb0.png)
+![BeFunky-new2 (1)](https://user-images.githubusercontent.com/88181451/221229270-acd47d62-df3d-4f96-8f3a-a9f5ef7af1bb.png)
 
 ![image](https://user-images.githubusercontent.com/88181451/221213684-9e514b95-782c-4db7-a923-ae7abfad8719.png)
 
